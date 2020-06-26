@@ -394,23 +394,20 @@ footer {
     }
 }
 @media only screen and (max-width: 655px) {
-    nav {
-        position: relative;
-        top: -3px;
-    }
     .nav {
         text-align: center;
     }
-    .nav li {
-        font-size: 1.2rem;
-    }
-}
-@media only screen and (max-width: 609px) {
     #test {
         display: none;
     }
+}
+@media only screen and (max-width: 609px) {
     .logo {
         width: 150px;
+    }
+    .nav li {
+        margin: 0 5px;
+        letter-spacing: normal;
     }
 }
 @media only screen and (max-width: 550px) {

@@ -1,135 +1,480 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
-    <title>samnoblept.co.uk</title>
-</head>
-<body>
-    <header>
-        <img id="logo" class="logo" src="SNLOGO1 (1).jpeg" alt="Sam Noble Personal Training Logo">
-    </header>
-    <nav>
-        <ul class="nav">
-            <a href="#logo"><li id="home">HOME</li></a>
-            <a href="#about-link"><li id="about-id">ABOUT</li></a>
-            <a href="#services-header-link"><li>SERVICES</li></a>
-            <a href="#testamonials-link"><li id="test">TESTAMONIALS</li></a>
-            <a href="#enquiry-form-link"><li>CONTACT</li></a>
-        </ul>
-    </nav>
-    <main>
-        <div class="hero">
-            <img class="hero-bg" id="img1" src="JollyMedia (67 of 221) (3).jpeg" alt="background">
-            <img class="hero-bg" id="img2" src="JollyMedia (67 of 221) (1).jpeg" alt="background">
-            <img class="hero-bg" id="img3" src="JollyMedia (67 of 221) (2).jpeg" alt="background">
-        </div>
-        <section id="about">
-            <div class="hi-im-sam">
-                <img id="profile-pic" src="2003-1-new (2).jpeg" alt="profile picture">
-                <h1><span id="about-link"></span>Hi, I'm <span>Sam.</span></h1><br>
-                <p>I started my fitness journey at a very young age, when I was eight years old, my parents opened health clubs in Worcestershire called PF2 Health Clubs. Ever since then, fitness has been a huge part of my life, from my Mum convincing me to attend her Bodypump classes in my school holidays, spending five years working within my family’s business, to creating my own Fitness Training business. I have huge amounts of passion when it comes to my client’s health and wellbeing, by forming strong relationships, I work with my clients on their fitness journeys by giving them one on one support, motivation, pushing them to their limits and breaking through barriers to ensure we can create the best results from their training.<br><br> I am a personal trainer who is based in Worcester with clients within Worcester, Droitwich and Malvern. With my latest online services I can now train my clients virtually from all around the world. With my support, I can offer my clients, full dedication to their fitness goals, one hundred percent support and guidance down to their eating habits, their independent training either at the gym or at home, as well as their one on one sessions.<br><br> Group exercise is another huge passions of mine, I am qualified to teach aerobics classes, circuits, HIIT, spinning, kettlebells, step aerobics, as well as four Les Mills Programmes including, Bodyattack, Bodycombat, Bodypump and GRIT. Being in that group environment creates a phenomenal atmosphere where I can connect, engage and motivate all of my participants in front of me. Watching people give their all into an exercise and smiling whilst sweating is incredible, the classes are always filled with fun, hard work and education to know you are experiencing a great workout. Back in 2019 myself and three of my team mates competed against other gyms around the country in the LES MILLS GRIT CHAMPIONSHIPS 2019, where we trained hard, dedicated hours of practice and worked strategically as a team to compete in the competition in London. We won the competition and took home the trophy, this also was mentioned in the Worcester new papers and online.</p>
-            </div>
-        </section>
-        <div id="services-header">
-            <h1><span id="services-header-link"></span>Services</h1>
-        </div>
-        <section class="services">
-            <div class="services-box1">
-                <div class="grey-box">
-                    <h2>Personal Training</h2>
-                    <ul>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">One on one support, motivation and guidance.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Online or outdoor sessions available.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Nutritional advice.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">30 or 60 minute sessions available.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Fully flexibile booking slots.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="services-box2">
-                <div class="grey-box">
-                    <h2>Fitness Classes</h2>
-                    <ul>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Online HIIT classes.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Les Mills certified.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Morning, lunchtime, evening and weekend sessions.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Bodyweight focussed workouts.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Adaptations and progressions where appropriate.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="services-box3">
-                <div class="grey-box">
-                    <h2>Training Programs</h2>
-                    <ul>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Fully tailored to your fitness goals.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Designed for either at home or gym use.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Multiple day splits.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Coaching and technique pointers.</li>
-                        <li><img src="PngJoy_tick-mark-queensland-government-logo-white-transparent-png_1740978.png" alt="tick">Discount in multiple purchases.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <h1 class="clients"><span id="testamonials-link"></span>What my clients are saying...</h1>
-        <section class="testamonials">
-            <div class="testamonials-box">
-                <img src="38544396_10214556312720651_3272843093337964544_n.jpg" alt="client picture">
-                <h1>Steve</h1>
-                <h2>Worcester</h2><br>
-                <p>"I have been with Sam for nearly a year now and he is amazing, not like your regular PT, he listens to what you want and treats you like an individual. Would recommend him 110% to anyone, in fact I have and friends have now signed up with him. Give Sam a try, I promise he will get you the results you desire!"</p>
-            </div>
-            <div class="testamonials-box">
-                <img src="21106740_10203726238233369_4430881684994359252_n.jpg" alt="client picture">
-                <h1>Katherine</h1>
-                <h2>Worcester</h2><br>
-                <p>"First HIT class with Sam this morning. I have done thousands of classes before and about 3 a week since the start of lockdown but none have been like Sam. Super friendly guy who motivates you throughout. Workouts are tough but go super quick and can not wait for the next one. Sam, you are my new number one without a doubt!"</p>
-            </div>
-            <div class="testamonials-box">
-                <img src="88261149_2869402439795650_3200468947325419520_n.jpg" alt="client picture">
-                <h1>Sally</h1>
-                <h2>Worcester</h2><br>
-                <p>"Sam noble is one of the best PT instructors there is. Motavational, energetic, always smiling and is
-                    always there for support, I love all the classes he teaches. He has been a rock to me and many more throughout this lockdown and without his online HIT classes I think I probably would have given up weeks ago! He encourages you every step of the way, even when you really want to give up. Brillant Sam, keep doing what you do best."</p>
-            </div>
-            <div class="testamonials-box">
-                <img src="22467762_103703897059629_9017424276803044479_o.jpg" alt="client picture">
-                <h1>Tabitha</h1>
-                <h2>Worcester</h2><br>
-                <p>"Sam's personal training is a must! His classes are for all abilities in fitness. He has so much energy and a great personality it makes you want to excercise and reach your goals. I did his HIT class this morning, makes me feel good, improves my mental health and gets me ready for the day."</p>
-            </div>
-            <div class="testamonials-box">
-                <img src="97443244_10222438654458159_4805349577022504960_n.jpg" alt="client picture">
-                <h1>Victoria</h1>
-                <h2>Worcester</h2><br>
-                <p>"Sam is the best PT, he keeps me motivated and his energy is amazing. Through this lockdown Sam has been my saviour with his enthusiasm and energy for keeping us fit with his HIT classes. I wouldn’t hesitate in recommending Sam, he’s such a lovely guy and excellent at what he does."</p>
-            </div>
-            <div class="testamonials-box">
-                <img src="67537199_10157221724619435_5720894930738479104_o.jpg" alt="client picture">
-                <h1>Tiffany</h1>
-                <h2>Worcester</h2><br>
-                <p>"Myself and a friend have regular joint PT sessions with sam, he is great at pushing us and making us work hard and also keeping plans updated to use outside of pt sessions! We always have a laugh aswell which gets us through, thanks sam!"</p>
-            </div>
-        </section>
-        <section id="enquiry-form">
-            <h1><span id="enquiry-form-link"></span>Make an Enquiry</h1>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfj4T9WwFMUB2PVqd5zLe_-0ygURkyNgS2ykwgkF13SKaPOtA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-wrapper">
-            <img id="snptimg" src="SNLOGO1 (1).jpeg" alt="Sam Noble Personal Training Logo">
-            <ul class="social-media">
-                <li><a href="https://www.facebook.com/samnoblept/" target="_blank"><img src="toppng.com-facebook-icon-png-black-1282x1282.png" alt="facebook icon"></a></li>
-                <li><a href="https://www.instagram.com/samnoblefitness/" target="blank"><img id="ig" src="75-755965_icons-clipart-instagram-logo-instagram-y-facebook-vector.png" alt="instagram icon"></a></li>
-                <li><a href="https://www.linkedin.com/in/sam-noble-724a75b8/" target="blank"><img src="linkedin.png" alt="linkedin icon"></a></li>
-            </ul>
-            <h1>Website by<br> <a href="https://oliverthomas93.github.io/conkerdev.com/" target="_blank"><span>conkerdev.com</span></a></h1>
-        </div>
-    </footer>
-</body>
-</html>
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+h1, h2 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.hero-bg {
+    width: 100%;
+    position: relative;
+    top: -54px;
+}
+.logo {
+    text-align: center;
+    position: relative;
+    width: 180px;
+    padding-top: 15px;
+    filter: invert(1);
+    z-index: 3;
+}
+header {
+    z-index: 2;
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+}
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(black, transparent);
+    padding: 10px 0 10px 0;
+}
+.nav {
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 5px;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 40px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.nav a:hover {
+    color: rgb(121, 121, 121);
+}
+#about-link {
+    position: absolute;
+    top: -140px;
+}
+#services-header-link {
+    position: absolute;
+    top: -60px;
+}
+#testamonials-link {
+    position: absolute;
+    top: -70px;
+}
+#enquiry-form-link {
+    position: absolute;
+    top: -80px;
+}
+#home {
+    color: #0077B6;
+    font-weight: 600;
+}
+#about {
+    background-image: url(JollyMedia\ \(68\ of\ 221\)\ \(2\).jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 50px auto 100px auto;
+    height: 850px;
+    max-width: 1500px;
+    position: relative;
+}
+#services-header {
+    text-align: center;
+}
+#services-header h1 {
+    margin: 20px 0;
+    position: relative;
+    font-size: 2.6rem;
+}
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(350px, auto);
+    margin: 0 auto 150px auto;
+    max-width: 1400px;
+    grid-gap: 20px;
+}
+.services-box1 {
+    background-image: url(danielle-cerullo-CQfNt66ttZM-unsplash.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.services-box2 {
+    background-image: url(inspired-horizons-digital-marketing-kufLAiPoIlI-unsplash.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;    
+}
+.services-box3 {
+    background-image: url(victor-freitas-JbI04nYfaJk-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;    
+}
+.grey-box {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: #fff;
+}
+.grey-box li {
+    margin: 30px 0;
+}
+.grey-box img {
+    width: 20px;
+    margin-right: 6px;
+}
+.grey-box ul {
+    line-height: 40px;
+    font-size: 1.6rem;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 20px 50px 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.grey-box h2 {
+    text-align: center;
+    padding: 30px 0 20px 0;
+    color: rgb(112, 205, 255); 
+}
+.hi-im-sam {
+    position: absolute;
+    width: 45%;
+    height: 87%;
+    top: 50px;
+    right: 20px;
+    padding: 35px;
+    margin: 0 50px;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: #fff;
+    overflow: auto;
+}
+.hi-im-sam h1 {
+    position: relative;
+    display: inline-block;
+}
+.hi-im-sam span {
+    color: #0077B6;
+}
+.hi-im-sam p {
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+#enquiry-form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+#enquiry-form h1 {
+    position: relative;
+    text-align: center;
+    margin: 10px 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.75s ease;
+}
+.clients {
+    position: relative;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.testamonials {
+    box-sizing: border-box;
+    display: grid;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 3%;
+}
+.testamonials-box {
+    margin-top: 30px;
+}
+.testamonials-box img {
+    width: 50%;
+    border-radius: 50%;
+    border: 3px solid #0077B6;
+}
+.testamonials-box p {
+    margin: 0 10%;
+    line-height: 20px;
+}
+.testamonials-box h1 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.testamonials-box h2 {
+    font-size: 1rem;
+    color: grey;
+    font-weight: 300;
+    margin-top: 5px;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    background: #000;
+}
+.footer-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-wrapper img {
+    width: 120px;
+    filter: invert(1);
+    margin-top: 30px;
+}
+.footer-wrapper h1 {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    font-size: 0.9rem;
+}
+.footer-wrapper span {
+    color: rgb(255, 255, 47);
+    transition: all 0.75s ease;
+    font-family: 'MuseoModerno', cursive;
+}
+.footer-wrapper span:hover {
+    color: hsl(165, 66%, 58%);
+}
+.social-media {
+    position: absolute;
+    top: 9%;
+    left: 25px;
+}
+.social-media li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 3px;
+}
+.social-media img {
+    width: 33px;
+    filter: invert(1);
+    border-radius: 20%;
+}
+.social-media img:hover {
+    position: relative;
+    bottom: 5px;
+}
+#ig:hover {
+    top: -3px;
+}
+#ig {
+    width: 34px;
+    position: relative;
+    top: 2px;
+}
+#linked {
+    width: 30px;
+}
+#img2 {
+    display: none;
+}
+#img3 {
+    display: none;
+}
+#profile-pic {
+    display: none;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    min-height: 30px;
+    max-height: 30px;
+}
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+    background: #0077B6; 
+    max-height: 20px;
+}
+::-webkit-scrollbar-thumb:hover {  
+    background: rgb(0, 87, 134); 
+}
+@media only screen and (max-width: 1500px) {
+    #about {
+        margin: 0;
+    }
+    #services-header {
+        margin-top: 60px;
+    }
+    .services {
+        margin-bottom: 80px;
+    }
+}
+@media only screen and (max-width: 901px) {
+    .hi-im-sam {
+        right: 0px;
+        top: 40px;
+        margin-right: 30px;
+    }
+    .services {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto 50px auto;
+        grid-gap: 10px;
+    }
+    #about {
+        top: -48px;
+    }
+    #services-header {
+        margin-top: 0px;
+    }
+    .nav li {
+        margin: 0 15px;
+    }
+    #img1 {
+        display: none;
+    }
+    #img2 {
+        display: block;
+    }
+    .testamonials {
+        grid-template-columns: 1fr 1fr;
+        margin: 0 20px 150px 20px;
+    }
+    #about {
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .hi-im-sam {
+        display: block;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        right: 0px;
+        margin: 0;
+        color: #fff;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.795);
+    }
+    #about {
+        background: none;
+        margin: 0;
+        height: 700px;
+        max-width: 1500px;
+        position: relative;
+    }
+    #profile-pic {
+        display: block;
+    }
+    #services-header, .services, .clients, .testamonials, #enquiry-form {
+        position: relative;
+        top: -50px;
+    }
+}
+@media only screen and (max-width: 655px) {
+    nav {
+        position: relative;
+        top: -3px;
+    }
+    .nav {
+        text-align: center;
+    }
+    .nav li {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 609px) {
+    #test {
+        display: none;
+    }
+    .logo {
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #img2 {
+        display: none;
+    }
+    #img3 {
+        display: block;
+    }
+    #services-header h1, .grey-box h2, .clients, #enquiry-form h1 {
+        font-size: 1.5rem;
+    }
+    #services-header h1 {
+        margin-bottom: 0;
+    }
+    .grey-box ul {
+        font-size: 1.2rem;
+    }
+    .grey-box li {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .testamonials {
+        grid-template-columns: 1fr;
+    }
+    .testamonials {
+        grid-gap: 1%;
+        margin-bottom: 200px;
+    }
+    .testamonials-box p {
+        margin: 0;
+    }
+    .testamonials-box img {
+        width: 40%;
+    }
+    #snptimg, .social-media, .footer-wrapper h1 {
+        display: block;
+        position: static;
+    }
+    #snptimg {
+        margin: 0 auto;
+        position: relative;
+        top: 15px;
+    }
+}
+@media only screen and (max-width: 435px) {
+    #about-id {
+        display: none;
+    }
+    .nav li {
+        margin: 0 5px;
+    }
+    #profile-pic {
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+    .hi-im-sam {
+        padding: 20px;
+    }
+    .hi-im-sam p {
+        text-align: justify;
+    }
+    .hi-im-sam p, .grey-box ul, .testamonials-box p {
+        letter-spacing: normal;
+    }
+}

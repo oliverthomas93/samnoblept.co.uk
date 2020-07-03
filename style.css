@@ -40,6 +40,7 @@ nav {
     padding: 10px 0 10px 0;
 }
 .nav {
+    width: 100%;
     list-style-type: none;
     color: #fff;
     display: flex;
@@ -55,6 +56,32 @@ nav {
     font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 2px;
+}
+#house, #menu {
+    display: none;
+    width: 30px;
+    filter: invert(1);
+    margin-left: 12px;
+}
+#hidden-nav {
+    position: sticky;
+    display: none;
+    top: 54px;
+    z-index: 3;
+    text-align: right;
+    width: 100%;
+    color: white;
+    background: black;
+    padding-bottom: 5px;
+}
+#hidden-nav a {
+    display: block;
+    margin: 0 15px 15px 0;
+}
+#menu {
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
 }
 .nav a:hover {
     color: rgb(121, 121, 121);
@@ -345,6 +372,7 @@ footer {
     }
     #about {
         top: -48px;
+        height: 700px;
     }
     #services-header {
         margin-top: 0px;
@@ -361,9 +389,6 @@ footer {
     .testamonials {
         grid-template-columns: 1fr 1fr;
         margin: 0 20px 150px 20px;
-    }
-    #about {
-        height: 700px;
     }
 }
 @media only screen and (max-width: 750px) {
@@ -394,20 +419,33 @@ footer {
     }
 }
 @media only screen and (max-width: 655px) {
-    .nav {
-        text-align: center;
-    }
-    #test {
-        display: none;
-    }
-}
-@media only screen and (max-width: 609px) {
     .logo {
         width: 150px;
     }
     .nav li {
-        margin: 0 5px;
         letter-spacing: normal;
+    }
+    .nav .hidden {
+        display: none;
+    }
+    #house, #menu {
+        display: inline-block;
+    }
+    .nav {
+        display: inline-block;
+        padding: 0;
+    }
+    #about-link {
+        top: -35px;
+    }
+    #services-header-link {
+        top: -18px;
+    }
+    #testamonials-link {
+        top: -35px;
+    }
+    #enquiry-form-link {
+        top: -35px;
     }
 }
 @media only screen and (max-width: 550px) {
@@ -454,10 +492,12 @@ footer {
         top: 15px;
     }
 }
-@media only screen and (max-width: 435px) {
-    #about-id {
-        display: none;
+@media only screen and (max-width: 450px) {
+    #about-link {
+        top: -180px;
     }
+}
+@media only screen and (max-width: 435px) {
     .nav li {
         margin: 0 5px;
     }

@@ -21,7 +21,7 @@ h1, h2 {
 .logo {
     text-align: center;
     position: relative;
-    width: 180px;
+    width: 182px;
     padding-top: 15px;
     filter: invert(1);
     z-index: 3;
@@ -37,7 +37,7 @@ nav {
     top: 0;
     z-index: 1;
     background: linear-gradient(black, transparent);
-    padding: 10px 0 10px 0;
+    padding: 11px 0 11px 0;
 }
 .nav {
     width: 100%;
@@ -47,7 +47,7 @@ nav {
     align-items: center;
     justify-content: center;
     height: 100%;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 .nav li {
     display: inline-block;
@@ -419,9 +419,6 @@ footer {
     }
 }
 @media only screen and (max-width: 655px) {
-    .logo {
-        width: 150px;
-    }
     .nav li {
         letter-spacing: normal;
     }
@@ -449,6 +446,9 @@ footer {
     }
 }
 @media only screen and (max-width: 550px) {
+    .logo {
+        width: 150px;
+    }
     #img2 {
         display: none;
     }
@@ -482,14 +482,27 @@ footer {
     .testamonials-box img {
         width: 40%;
     }
-    #snptimg, .social-media, .footer-wrapper h1 {
-        display: block;
-        position: static;
-    }
     #snptimg {
         margin: 0 auto;
         position: relative;
         top: 15px;
+        width: 70px;
+    }
+    footer {
+        height: 130px;
+    }
+    .footer-wrapper h1 {
+        font-size: 0.7rem;
+        top: 20px;
+    }
+    .social-media li img {
+        width: 25px;
+    }
+    #ig {
+        width: 27px;
+    }
+    .social-media {
+        top: -10px;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -513,5 +526,10 @@ footer {
     }
     .hi-im-sam p, .grey-box ul, .testamonials-box p {
         letter-spacing: normal;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #snptimg {
+        display: none;
     }
 }

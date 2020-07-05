@@ -47,7 +47,7 @@ nav {
     align-items: center;
     justify-content: center;
     height: 100%;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
 }
 .nav li {
     display: inline-block;
